@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
-import bg1 from "./assets/bg1.jpg";
+import img2 from "./assets/img2.png";
+import spark from "./assets/spark.svg";
 
 const App = () => {
   return (
@@ -8,7 +9,7 @@ const App = () => {
       <div>
         <section>
           <div id="upperFlex">
-            <ul>
+            <ul id="forLap">
               <li>
                 <a href="">Schedule a Appointment</a>
               </li>
@@ -21,16 +22,13 @@ const App = () => {
             </ul>
           </div>
           <div id="label">
-            <p>
-              Ready to Earn Extra Cash? Give Life. Get Paid. We’re Open and
-              Ready to Welcome New Donors!
-            </p>
+            <p>We’re Open and Ready to Welcome New Donors!</p>
           </div>
           <nav id="nav">
             <div id="navdiv">
               <div id="logo">
                 <a className="logo" href="">
-                  Logo
+                  <img id="mainlogo" src={spark} alt="" />
                 </a>
               </div>
               <div id="navEle">
@@ -53,10 +51,36 @@ const App = () => {
           </nav>
         </section>
       </div>
-      <div id="sec2">
-        <div id="block1">
-          <h1>GIVE Life</h1>
-          <p>Lives Depend on Plasma Therapies. Become a Donor and Get Paid.</p>
+      <div id="sec2out">
+        <div id="sec2">
+          <div id="block1">
+            <h1>GIVE Life</h1>
+            <p>
+              Lives Depend on Plasma Therapies. Become a Donor and Get Paid.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="sec3out">
+        <div id="sec3">
+          <h1>WELCOME TO THE FUTURE of plasma donation.</h1>
+          <p>
+            Our highly skilled technicians are ready to provide donors with a
+            welcoming plasma donation experience using leading-edge
+            technologies, techniques, and safety protocols. At PlasmaSource,
+            donations are easy, and the perfect fit for those wanting to make a
+            meaningful impact on the lives of others and earn extra money.
+            Here’s how to get started at our plasma donating center:
+          </p>
+        </div>
+        <img src={img2} id="img2" alt="" />
+      </div>
+      <div id="sec4out">
+        <div id="sec4"></div>
+      </div>
+      <div id="sec5out">
+        <div id="sec5">
+          <h1>Thanks For Visiting </h1>
         </div>
       </div>
     </>

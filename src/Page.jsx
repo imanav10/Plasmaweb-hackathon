@@ -1,12 +1,16 @@
 import React from "react";
-import Doctor from "./image.jpg";
+import Doctor from "./assets/image.jpg";
+import Nurse from "./assets/blabla.jpg";
+import chiko from "./assets/chiko.jpg";
 import "./App.css";
 
-function About() {
+function Page() {
   return (
     <div className="about-section" id="about">
       <div className="about-image-content">
         <img src={Doctor} alt="Doctor Group" className="about-image1" />
+        <img src={chiko} alt="Doctor Group" className="about-image1" />
+        <img src={Nurse} alt="Doctor Group" className="about-image1" />
       </div>
       <div className="about-text-content">
         <h3 className="about-title">
@@ -109,4 +113,4 @@ function About() {
   );
 }
 
-export default About;
+export default Page;
