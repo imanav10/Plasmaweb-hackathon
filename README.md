@@ -17,7 +17,7 @@ Experience Plasmaweb in action at our live demo: https://plasmaweb-hackathon.ver
 * Start the development server with npm start.
 * Access the website locally at http://localhost:3000.
 
-### Contributers
+# Contributers
 - Manav
 - Mrinal Sharma
 - Sumit Dhiman
