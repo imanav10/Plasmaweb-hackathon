@@ -11,7 +11,9 @@ const App = () => {
           <div id="upperFlex">
             <ul id="forLap">
               <li>
-                <a href="">Schedule a Appointment</a>
+                <a target="blank" href="https://forms.gle/7YuTKuQ32jxHxksj6">
+                  Schedule a Appointment
+                </a>
               </li>
               <li>
                 <a href="">Call Us</a>
@@ -34,16 +36,21 @@ const App = () => {
               <div id="navEle">
                 <ul>
                   <li>
-                    <a>Why Plasma ▼</a>
+                    <a href="<Page />">Use of plasma</a>
                   </li>
                   <li>
-                    <a href="">Become a Donor</a>
+                    <a href="">Plasma Defined</a>
                   </li>
                   <li>
-                    <a href="">Current Donors</a>
+                    <a href="">Our Approach</a>
                   </li>
                   <li>
-                    <a href="">About Us</a>
+                    <a
+                      target="blank"
+                      href="https://docs.google.com/forms/d/e/1FAIpQLSftNZednySh_dqiyURpmuv_JACm_4hIPGR7kswiIU0ROAbXIA/viewform?usp=sf_link"
+                    >
+                      Become a Donor
+                    </a>
                   </li>
                 </ul>
               </div>
