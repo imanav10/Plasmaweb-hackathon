@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import "./OurApproach.css";
 import img1 from "./assets/merimg.png";
 import spark from "./assets/spark.svg";
 
@@ -58,15 +58,10 @@ const App = () => {
           </nav>
         </section>
       </div>
-      <div id="lmao" className="hero">
-        <div>
+      <div id="lmao">
+        {/* <div>
           <img src={img1} id="img2" alt="" />
-        </div>
-      </div>
-      <div id="sec5out">
-        <div id="sec5">
-          <h1>Thanks For Visiting </h1>
-        </div>
+        </div> */}
       </div>
     </>
   );
