@@ -16,10 +16,20 @@ const App = () => {
                 </a>
               </li>
               <li>
-                <a href="">Call Us</a>
+                <a
+                  target="blank"
+                  href="https://www.google.com/search?q=plasma+helpline+&sca_esv=0ee0280be053867a&sxsrf=ADLYWIJb_XD5VTeHhm0KNWIKbjbsZ_UeOA%3A1715948580954&ei=JExHZrboOYmz4-EP1dyq6AY&ved=0ahUKEwi2ivvM1pSGAxWJ2TgGHVWuCm0Q4dUDCBA&oq=plasma+helpline+&gs_lp=Egxnd3Mtd2l6LXNlcnAiEHBsYXNtYSBoZWxwbGluZSAyCBAhGKABGMMESJ9GUPgeWIg_cAR4AJABAJgBygGgAd0GqgEFMC40LjG4AQzIAQD4AQH4AQKYAgagAusGwgIOEAAYgAQYkQIYsQMYigXCAgUQABiABMICCxAuGIAEGMcBGK8BwgIGEAAYBxgewgIIEAAYgAQYogSYAwCIBgGSBwUxLjQuMaAH5RQ&sclient=gws-wiz-serp"
+                >
+                  Plasma Helpline
+                </a>
               </li>
               <li>
-                <a href="">Location</a>
+                <a
+                  target="blank"
+                  href="https://maps.app.goo.gl/SnAnadX3HrukoYh39"
+                >
+                  Location
+                </a>
               </li>
             </ul>
           </div>
@@ -36,13 +46,10 @@ const App = () => {
               <div id="navEle">
                 <ul>
                   <li>
-                    <a href="<Page />">Use of plasma</a>
+                    <a href="#about">Use of plasma</a>
                   </li>
                   <li>
-                    <a href="">Plasma Defined</a>
-                  </li>
-                  <li>
-                    <a href="">Our Approach</a>
+                    <a href="#lmao">Our Approach</a>
                   </li>
                   <li>
                     <a
@@ -84,11 +91,6 @@ const App = () => {
       </div>
       <div id="sec4out">
         <div id="sec4"></div>
-      </div>
-      <div id="sec5out">
-        <div id="sec5">
-          <h1>Thanks For Visiting </h1>
-        </div>
       </div>
     </>
   );
